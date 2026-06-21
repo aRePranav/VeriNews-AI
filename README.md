@@ -5,7 +5,7 @@ calibrated confidence score, and the exact words that drove the decision —
 no black box.
 
 Built by **R Pranav** as part of the Intrainz AI internship, on top of the
-[FakeCheck](https://github.com/aRePranav/FakeCheck) project.
+[FakeCheck](https://github.com/aRePranav/VeriNews-AI) project.
 
 ```
 verinews/

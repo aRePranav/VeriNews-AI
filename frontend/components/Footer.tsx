@@ -13,7 +13,7 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com/aRePranav/FakeCheck"
+            href="https://github.com/aRePranav/VeriNews-AI"
             target="_blank"
             rel="noreferrer"
             className="text-ink-faint transition hover:text-ink"
@@ -31,7 +31,7 @@ export function Footer() {
             <Linkedin className="h-4 w-4" />
           </a>
           <a
-            href="mailto:pranavchinnu100@gmail.com"
+            href="mailto:connectwithpranav.r@gmail.com"
             className="text-ink-faint transition hover:text-ink"
             aria-label="Email"
           >

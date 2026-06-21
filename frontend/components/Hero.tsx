@@ -45,7 +45,7 @@ export function Hero() {
         >
           <Sparkles className="h-3.5 w-3.5 text-ink-faint" />
           <span className="font-mono text-xs text-ink-muted">
-            Built during the Intrainz AI internship
+            Production Grade AI System for Intelligent News Verification
           </span>
         </motion.div>
 
