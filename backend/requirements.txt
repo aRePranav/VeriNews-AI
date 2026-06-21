@@ -1,0 +1,9 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+scikit-learn==1.8.0
+joblib==1.4.2
+nltk==3.9.1
+numpy==2.2.1
+slowapi==0.1.9
+pydantic==2.10.4
+python-multipart==0.0.20

@@ -1,0 +1,99 @@
+{
+  "production_model": "passive_aggressive",
+  "label_map": {
+    "0": "REAL",
+    "1": "FAKE"
+  },
+  "dataset": {
+    "name": "WELFake",
+    "total_articles": 72134,
+    "train_size": 57707,
+    "test_size": 14427,
+    "real_count": 35028,
+    "fake_count": 37106
+  },
+  "vectorizer": {
+    "max_features": 50000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "actual_vocab_size": 50000
+  },
+  "models": {
+    "passive_aggressive": {
+      "accuracy": 96.72,
+      "precision": 96.27,
+      "recall": 97.4,
+      "f1": 96.83,
+      "roc_auc": 0.9946,
+      "confusion_matrix": [
+        [
+          6726,
+          280
+        ],
+        [
+          193,
+          7228
+        ]
+      ],
+      "train_seconds": 0.8
+    },
+    "linear_svc": {
+      "accuracy": 96.74,
+      "precision": 96.11,
+      "recall": 97.61,
+      "f1": 96.86,
+      "roc_auc": 0.9945,
+      "confusion_matrix": [
+        [
+          6713,
+          293
+        ],
+        [
+          177,
+          7244
+        ]
+      ],
+      "train_seconds": 2.8
+    },
+    "logistic_regression": {
+      "accuracy": 95.05,
+      "precision": 94.51,
+      "recall": 95.96,
+      "f1": 95.23,
+      "roc_auc": 0.9882,
+      "confusion_matrix": [
+        [
+          6592,
+          414
+        ],
+        [
+          300,
+          7121
+        ]
+      ],
+      "train_seconds": 1.1
+    },
+    "naive_bayes": {
+      "accuracy": 87.38,
+      "precision": 86.61,
+      "recall": 89.27,
+      "f1": 87.92,
+      "roc_auc": 0.9456,
+      "confusion_matrix": [
+        [
+          5982,
+          1024
+        ],
+        [
+          796,
+          6625
+        ]
+      ],
+      "train_seconds": 0.1
+    }
+  },
+  "production_model_calibrated_accuracy": 96.42,
+  "trained_at": "2026-06-21T05:23:12Z"
+}
