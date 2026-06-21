@@ -8,7 +8,7 @@ export function Footer() {
         <div>
           <p className="text-sm font-semibold text-ink">VeriNews AI</p>
           <p className="mt-1 text-xs text-ink-faint">
-            Built as part of the Intrainz AI Internship — FakeCheck project.
+            AI Powered Real-Time Misinformation Detection Platform.
           </p>
         </div>
         <div className="flex items-center gap-4">

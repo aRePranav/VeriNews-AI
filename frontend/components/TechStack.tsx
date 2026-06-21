@@ -50,7 +50,7 @@ export function TechStack() {
           <div>
             <p className="text-sm font-semibold text-ink">Built by R Pranav</p>
             <p className="mt-1 text-xs text-ink-muted">
-              Data Science student · Built as part of the Intrainz AI internship
+              Machine Learning Engineer · Building Production Grade AI Systems 
             </p>
           </div>
           <div className="flex gap-3">

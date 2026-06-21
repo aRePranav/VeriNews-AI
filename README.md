@@ -4,8 +4,9 @@ Real-time fake news detection. Paste a headline or article, get a verdict, a
 calibrated confidence score, and the exact words that drove the decision —
 no black box.
 
-Built by **R Pranav** as part of the Intrainz AI internship, on top of the
-[FakeCheck](https://github.com/aRePranav/VeriNews-AI) project.
+Built by **R Pranav** as a production-grade AI-powered misinformation detection platform.
+
+Official Repository: https://github.com/aRePranav/VeriNews-AI
 
 ```
 verinews/
@@ -79,7 +80,7 @@ git init
 git add .
 git commit -m "VeriNews AI: full-stack fake news detection platform"
 git branch -M main
-git remote add origin https://github.com/aRePranav/FakeCheck.git
+git remote add origin https://github.com/aRePranav/VeriNews-AI.git
 git push -u origin main
 ```
 
